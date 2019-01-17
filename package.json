@@ -10,8 +10,11 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "pg": "^7.7.1",
+    "pg-pool": "^2.0.5",
     "vue": "^2.5.11",
-    "vue-resource": "^1.5.1"
+    "vue-resource": "^1.5.1",
+    "vue2-google-maps": "^0.10.5"
   },
   "browserslist": [
     "> 1%",

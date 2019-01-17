@@ -1,60 +1,80 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+  <div id="root">
+    <my-header v-on:emittedEvent="changeComponent($event)"></my-header>
+    <div id="scene">
+      <component :is="currentShow"> </component>
+    </div>
   </div>
 </template>
 
 <script>
+import Header from './components/essentials/Header.vue';
+import MainPage from './components/pages/Main/MainPage.vue';
+import Forum from './components/pages/Forums/Forum.vue';
+import CamMap from './components/pages/CamMap/Cameras.vue';
+import Report from './components/pages/Report/Report.vue';
+import AboutMe from './components/pages/AboutMe/About.vue';
 export default {
-  name: 'app',
+  name: 'root',
+  components: {
+    'my-header': Header,
+    'my-mainPage': MainPage,
+    'my-forum': Forum,
+    'my-camMap': CamMap,
+    'my-report': Report,
+    'my-aboutMe' : AboutMe
+  },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      currentShow: 'my-mainPage'
+    }
+  },
+  methods: {
+    changeComponent: function(event) {
+      this.currentShow = event;
     }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
-h1, h2 {
-  font-weight: normal;
+*{
+  font-family: "freightsans_regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  transition: all 0.5s ease;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+*:not(.vue-map){
+  transition: none;
 }
 
-li {
-  display: inline-block;
-  margin: 0 10px;
+*:not(.vue-map-container) {
+  transition: none;
 }
 
-a {
-  color: #42b983;
+html,body,#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: rgb(247, 247, 247);
+}
+
+#scene {
+  width: 100%;
+  height: 93%;
+  overflow: hidden;
 }
 </style>
