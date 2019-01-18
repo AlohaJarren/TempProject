@@ -17,10 +17,10 @@ export default {
   name: 'my-header',
   data () {
     return {
-        imgSrc: 'https://img.fireden.net/vg/image/1439/76/1439769961643.png',
-        imgAlt: 'Jarren Calizo the Almighty OOGA BOOGA CHA',
+        imgSrc: 'https://scontent-lax3-2.cdninstagram.com/vp/54fb5085900d49228d4e10860e20b8b5/5D015430/t51.2885-15/e35/p1080x1080/44691807_1436595683110274_4851399008266366026_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com',
+        imgAlt: 'Jarren Calizo',
         name: 'Jarren Calizo',
-        slogan: 'Computer Programmer/High School Marauder/Go Getter',
+        slogan: '2nd Year Computer Programmer (Waipahu High School)',
         links: [
             {img:'./src/assets/github.png',text:'Github',link:'https://github.com/AlohaJarren'},
             //{img:'./src/assets/instagram.png',text:'Instagram'}

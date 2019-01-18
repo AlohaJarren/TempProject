@@ -1,0 +1,199 @@
+{
+   "Camera": [
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0044.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0044.jpg",
+         "ID": "TL-0044",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.38864",
+            "Lon": "-157.94098"
+         },
+         "Name": "H-1 and Kaonohi (Westbound)",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0038.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0038.jpg",
+         "ID": "TL-0038",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.37991",
+            "Lon": "-157.92909"
+         },
+         "Name": "H-1 and Aiea Heights Overpass",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0094.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0094.jpg",
+         "ID": "TL-0094",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.38709",
+            "Lon": "-157.95442"
+         },
+         "Name": "Kam Hwy and Kaahumanu",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0095.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0095.jpg",
+         "ID": "TL-0095",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.3833",
+            "Lon": "-157.94614"
+         },
+         "Name": "Kam Hwy and Kaonohi",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0125.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0125.jpg",
+         "ID": "TL-0125",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.39077",
+            "Lon": "-157.95328"
+         },
+         "Name": "Moanalua Rd and Kaahumanu St",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0126.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0126.jpg",
+         "ID": "TL-0126",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.38643",
+            "Lon": "-157.94199"
+         },
+         "Name": "Moanalua Rd and Kaonohi St",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0124.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0124.jpg",
+         "ID": "TL-0124",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.381219",
+            "Lon": "-157.935928"
+         },
+         "Name": "Moanalua Rd and Honomanu",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0041.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0041.jpg",
+         "ID": "TL-0041",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.39302",
+            "Lon": "-157.95301"
+         },
+         "Name": "H-1 and Kaahumanu (Eastbound)",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0123.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0123.jpg",
+         "ID": "TL-0123",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.37911",
+            "Lon": "-157.93088"
+         },
+         "Name": "Moanalua Rd and Aiea Hts Dr",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0203.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0203.jpg",
+         "ID": "TL-0203",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.38683",
+            "Lon": "-157.954498"
+         },
+         "Name": "Kam Hwy and Kaahumanu #2",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0205.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0205.jpg",
+         "ID": "TL-0205",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.380935",
+            "Lon": "-157.940851"
+         },
+         "Name": "Kam Hwy and Pali Momi",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0042.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0042.jpg",
+         "ID": "TL-0042",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.39302",
+            "Lon": "-157.95301"
+         },
+         "Name": "H-1 and Kaahumanu (Westbound)",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      },
+      {
+         "Active": "true",
+         "FullImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0043.jpg",
+         "HalfImageURL": "http://cctv.cdn.goakamai.org//SnapShot/320x240/TL-0043.jpg",
+         "ID": "TL-0043",
+         "LastUpdate": "2019-01-17T08:00:01",
+         "Location": {
+            "Lat": "21.38864",
+            "Lon": "-157.94098"
+         },
+         "Name": "H-1 and Kaonohi (Eastbound)",
+         "Status": "OK",
+         "StreamingURL": [],
+         "TourMembership": []
+      }
+   ]
+}

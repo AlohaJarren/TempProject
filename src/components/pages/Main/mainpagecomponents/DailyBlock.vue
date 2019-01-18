@@ -1,7 +1,7 @@
 <template>
   <div class='blocks'>
       <div id="logo">
-          <img src="../../../../assets/logo.png" alt="Neado Libido">
+          <img src="../../../../assets/logo.png" alt="Hawaii Background Image">
           <h2>Traffic Reporting Made Easy</h2>
       </div>
   </div>

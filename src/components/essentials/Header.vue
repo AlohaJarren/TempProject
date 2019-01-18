@@ -19,7 +19,7 @@ export default {
           {name: 'Forums',change:'my-forum'},
         //   {name: 'Near You',change:'my-near'},
           {name: 'About Me',change:'my-aboutMe'},
-          {name: 'report',change:'my-report'}
+          {name: 'Report',change:'my-report'}
       ]
     }
   },
@@ -35,9 +35,9 @@ export default {
 #my-header {
     display: inline-flex;
     width: 100%;
-    height: 7%;
+    height: 14%;
     z-index: 2;
-    background-color: rgba(0,0,0,1);
+    background-color: #508585;
 }
 ul {
     display: flex;
@@ -54,11 +54,14 @@ li {
   }
   li:hover {
       cursor: pointer;
+      opacity: 0.5;
   }
   li > * {
     margin: auto 0;
   }
   h3 {
-      margin: auto 0;
+      margin: auto;
   }
+  
+
 </style>
